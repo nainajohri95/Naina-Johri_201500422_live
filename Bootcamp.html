@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Templet</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="left">
+          <img src="./Template-1 (1).png" alt="" />
+        </div>
+
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Project</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Elements</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="right">
+          <button class="btn">Buy Rogan &#x2192</button>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="column1"><h3><span>&nbsp;&nbsp;70% Off</span> &nbsp; for first 3 months &nbsp; &nbsp;<br> <br></h3><h1>Digital Agency <br> with Excellence <br> Services.</h1> <br> <div class="para"> <h3> The 3 golden rules professional graphic designer don't</h3></div>
+        <div class="row">
+            <img src="./Template-1.png" alt="">
+        </div>
+    </div>
+        <footer><li>
+            <ul>
+
+            </ul>
+        </li></footer>
+
+      <style>
+        * {
+          margin: 0;
+          padding: 0;
+        }     
+        .navbar {
+          display: flex;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+          height: 60px;
+        }
+        .right .btn{
+            margin-left: 26rem;
+            font-size: 14px;
+            color: red;
+            border: none;
+            background-color: antiquewhite;
+        }
+        .navbar ul {
+          margin-top: 40px;
+          margin-left: 40px;
+          display: flex;
+          gap: 2.5rem;
+          font-size: 1.25rem;
+          list-style: none;
+          font-weight: 700;
+        }
+
+        .navbar li a {
+          color: black;
+          text-decoration: none;
+        }
+        .navbar li a:hover {
+          color: red;
+        }
+        .navbar .right {
+          color: red;
+          margin-top: 40px;
+          float: left;
+        }     
+        .row:after {
+          content:"" ;
+          display: table;
+          clear: both;
+        }
+        
+        .column1{
+            margin-left: 50px;
+            margin-top: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        .container .column1 h3{
+            background-color: rgb(211, 204, 204);
+            display: inline;
+           
+        }
+        .container .column1 h3 span{
+            color: red;
+            
+        }
+        .column1 h3{
+            border: none;
+            color: gray;
+        } 
+        .container .column1 h1{
+            color: rgb(7, 7, 78);
+            font-size: bold;
+            font-size: 4rem;
+        }
+        .container .column1 .para h3{
+            background: none;
+            color: gray;
+        }
+        .container .column1 .row{
+            top:0;
+            margin-left: 40rem;
+        }
+        
+        footer li ul{
+        display: flex;
+          font-family: Arial, Helvetica, sans-serif;
+          gap: 2.5rem;
+          font-size: 1.25rem;
+          list-style: none;
+          font-weight: 700;
+          margin-left: 20px;
+        }
+     
+      </style>
+    </header>
+    <script src="./Bootcamp.js"></script>
+  </body>
+</html>
